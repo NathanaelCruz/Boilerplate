@@ -8,11 +8,12 @@
         "start": "next start",
         "lint": "eslint --max-warnings 0 src",
         "postinstall": "hysky install",
-        "test": "jest"
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "lint-staged": {
         "src/**/*": [
-            "npm run lint --fix"
+            "npm run lint --fix", "npm run test --bail"
         ]
     },
     "dependencies": {
@@ -22,6 +23,8 @@
     },
     "devDependencies": {
         "@babel/preset-typescript": "^7.13.0",
+        "@testing-library/jest-dom": "^5.13.0",
+        "@testing-library/react": "^11.2.7",
         "@types/jest": "^26.0.23",
         "@types/node": "^15.9.0",
         "@types/react": "^17.0.9",
