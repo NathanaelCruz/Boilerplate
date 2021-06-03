@@ -17,7 +17,8 @@
   3. Husky + Lint-staged
   4. ESLint
   5. Prettier
-  6. Editorconfig
+  6. Jest + Testing Library
+  7. Editorconfig
 
 ## COMO UTILIZAR?
   Nessa sessão será divida em três partes, seguindo com NPM e utilizando em um sistema operacional Ubuntu, porém nada impede de atualizar ou mesmo utilizar com yarn, sendo as seguintes:
@@ -49,13 +50,13 @@
   3. No caminho `[Raiz do projeto]/src/styles/theme.ts` possui as váriaveis de tema que pode trocar ou ajustar conforme o projeto.
   4. No caminho `[Raiz do projeto]/src/pages/_app.tsx` para alterar as metatags entre o comoponente Head. -->
 
-<!-- ## Testes
+## Testes
   Para os testes terá os comando a seguir, porém, para melhor compreender, a forma que o boilerplate está montado é para o momento que for realizar um teste ele percorrer somente as pastas que de fato tem um teste dentro, ignorando alguns arquivos desnecessarios.
 
 ## Comandos
   Essa sessão mostra os comandos possiveis e configurados, não abordando os `npm run dev`, `npm run build` e `npm run start` que são padrões.
   1. `npm run lint` - Realiza a verificação do ESlint nas páginas para verificar se há alguma formatação errada, não tolerando nenhum warning.
   2. `npm run test` - Realiza os testes atravs do jest rodando as pastas que realmente possuem algum teste válido.
-  3. `npm run test:watch` - Funciona como o test acima porém ele fica "escutando" e validando caso haja alguma mudança. -->
+  3. `npm run test:watch` - Funciona como o test acima porém ele fica "escutando" e validando caso haja alguma mudança.
 
 Desenvolvido em **2021**
