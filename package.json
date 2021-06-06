@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "eslint --max-warnings 0 src",
-        "postinstall": "hysky install",
+        "postinstall": "husky install",
         "test": "jest",
         "test:watch": "jest --watch",
         "storybook": "start-storybook -s ./public -p 6006",
