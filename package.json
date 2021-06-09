@@ -11,12 +11,12 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "storybook": "start-storybook -s ./public -p 6006",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook -s public"
     },
     "lint-staged": {
         "src/**/*": [
             "npm run lint --fix",
-            "npm run test --findRelatedTests --bail"
+            "npm run test -- --findRelatedTests --bail"
         ]
     },
     "dependencies": {

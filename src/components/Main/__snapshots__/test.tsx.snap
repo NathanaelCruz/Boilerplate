@@ -50,7 +50,7 @@ exports[`Start testing Main Component Should render heading 1`] = `
   <img
     alt="Logo: Imagem de um átomo e react avançado"
     class="c1"
-    src="/img/logo.svg"
+    src="img/logo.svg"
   />
   <h1
     class="c2"
@@ -65,7 +65,7 @@ exports[`Start testing Main Component Should render heading 1`] = `
   <img
     alt="Desenvolvedor codificando em frente a um computador."
     class="c4"
-    src="/img/hero-illustration.svg"
+    src="img/hero-illustration.svg"
   />
 </main>
 `;
